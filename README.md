@@ -92,24 +92,23 @@ In this brain tumor detection project, a Convolutional Neural Network (CNN) is e
 
 These steps outline the specific architecture and reasoning behind building and training the CNN model for brain tumor detection. Each component of the model plays a critical role in ensuring it learns to distinguish between tumor and healthy images accurately, ultimately aiding in the early detection and diagnosis of brain tumors.
 
-### Convolutional Neural Network (CNN) Summary
 
 | **Layer**                     | **Details**                                                                                     |
 |-------------------------------|------------------------------------------------------------------------------------------------|
-| **Input Layer**               | Receives preprocessed MRI images resized to **128x128x3** pixels.                              |
-| **First Convolutional Layer** | Applies **32 filters** of size **3x3** to extract low-level features.                          |
-| **ReLU Activation**           | Introduces non-linearity by replacing negative pixel values with zero.                         |
-| **First Pooling Layer**       | **Max Pooling** with **2x2** pool size to downsample feature maps and reduce dimensions.       |
-| **Second Convolutional Layer**| Applies **64 filters** of size **3x3** to learn more complex features.                         |
-| **ReLU Activation**           | Further non-linearity after the second convolutional layer.                                    |
-| **Second Pooling Layer**      | **Max Pooling** with **2x2** pool size to reduce dimensions further.                           |
-| **Flatten Layer**             | Converts 2D feature maps into a 1D vector for dense layers.                                    |
-| **Fully Connected Layer**     | **128 neurons** with **Dropout** rate of **0.5** to prevent overfitting.                       |
-| **Output Layer**              | **2 neurons** with **softmax** activation for class probability distribution.                  |
-| **Loss Function**             | Uses **categorical cross-entropy** to measure prediction accuracy.                             |
-| **Optimizer**                 | **Adam optimizer** to adjust model weights and minimize loss.                                  |
-| **Training**                  | Trained over **50 epochs** with monitoring using validation data to avoid overfitting.         |
-| **Evaluation**                | Evaluated on test data using **accuracy, precision, recall,** and **F1-score**.                |
+| Input Layer               | Receives preprocessed MRI images resized to **128x128x3** pixels.                              |
+| First Convolutional Layer | Applies **32 filters** of size **3x3** to extract low-level features.                          |
+| ReLU Activation            | Introduces non-linearity by replacing negative pixel values with zero.                         |
+| First Pooling Layer       | **Max Pooling** with **2x2** pool size to downsample feature maps and reduce dimensions.       |
+| Second Convolutional Layer| Applies **64 filters** of size **3x3** to learn more complex features.                         |
+| ReLU Activation           | Further non-linearity after the second convolutional layer.                                    |
+| Second Pooling Layer      | **Max Pooling** with **2x2** pool size to reduce dimensions further.                           |
+| Flatten Layer             | Converts 2D feature maps into a 1D vector for dense layers.                                    |
+| Fully Connected Layer     | **128 neurons** with **Dropout** rate of **0.5** to prevent overfitting.                       |
+| Output Layer              | **2 neurons** with **softmax** activation for class probability distribution.                  |
+| Loss Function             | Uses **categorical cross-entropy** to measure prediction accuracy.                             |
+| Optimizer                 | **Adam optimizer** to adjust model weights and minimize loss.                                  |
+| Training                  | Trained over **50 epochs** with monitoring using validation data to avoid overfitting.         |
+| Evaluation                | Evaluated on test data using **accuracy, precision, recall,** and **F1-score**.                |
 
 
 
