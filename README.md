@@ -111,4 +111,22 @@ These steps outline the specific architecture and reasoning behind building and 
 | Evaluation                | Evaluated on test data using **accuracy, precision, recall,** and **F1-score**.                |
 
 
+## Model Evaluation and Results
 
+After training the Convolutional Neural Network (CNN) model for brain tumor detection, it was crucial to evaluate its performance on both training and validation datasets. The metrics used for evaluation were accuracy and loss, which provide insights into how well the model has learned to distinguish between tumor and healthy brain MRI images. The results indicate the model's effectiveness and its ability to generalize to new, unseen data.
+
+### Final Results
+
+After training the CNN model for brain tumor detection for 25 epochs, the following final evaluation metrics were recorded:
+
+| **Metric**           | **Final Value (Training Set)** | **Final Value (Validation Set)** |
+|----------------------|-------------------------------|----------------------------------|
+| **Accuracy**         | 0.9795                        | 0.9108                           |
+| **Loss**             | 0.0716                        | 0.2556                           |
+
+- **Training Accuracy:** The model achieved a high accuracy of **97.95%** on the training set, indicating that it effectively learned the patterns in the training data.
+- **Validation Accuracy:** The model achieved an accuracy of **91.08%** on the validation set, suggesting good generalization to new, unseen data without significant overfitting.
+- **Training Loss:** The final training loss was **0.0716**, showing that the model effectively minimized the difference between predicted and actual labels during training.
+- **Validation Loss:** The validation loss was **0.2556**, which stabilized, indicating that the model reached an optimal point without overfitting.
+
+These results demonstrate the CNN model's effectiveness in accurately detecting brain tumors from MRI images, making it a promising tool for clinical diagnosis.
