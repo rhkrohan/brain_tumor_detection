@@ -10,11 +10,11 @@ Brain tumors are **critical medical conditions** that require prompt and accurat
     <table>
         <tr>
             <td align="center">
-                <img src="https://github.com/user-attachments/assets/ca389bf9-fa8d-4ab7-941c-91950397db9a" alt="Tumor Brain" width="300"/>
+                <img src="https://github.com/user-attachments/assets/ca389bf9-fa8d-4ab7-941c-91950397db9a" alt="Tumor Brain" width="300" height="300"/>
                 <p><b>Tumor Brain</b></p>
             </td>
             <td align="center">
-                <img src="https://github.com/user-attachments/assets/b3a41b08-7f53-4dfa-a161-78b60ac35b2a" alt="Healthy Brain" width="300"/>
+                <img src="https://github.com/user-attachments/assets/b3a41b08-7f53-4dfa-a161-78b60ac35b2a" alt="Healthy Brain" width="300"height="300"/>
                 <p><b>Healthy Brain</b></p>
             </td>
         </tr>
