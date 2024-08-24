@@ -3,8 +3,8 @@
 ### Problem Statement
 Brain tumors are **critical medical conditions** that require prompt and accurate diagnosis for effective treatment. **Traditional methods** of detecting brain tumors through manual examination of MRI scans by radiologists are often **time-consuming, prone to human error, and can delay necessary treatment**. As the volume of medical imaging data continues to grow, there is a **significant need for automated systems** to assist in **early detection** and diagnosis.
 
-![Not Cancer  (1843)](https://github.com/user-attachments/assets/b3a41b08-7f53-4dfa-a161-78b60ac35b2a)   
-
+![Not Cancer  (1843)](https://github.com/user-attachments/assets/b3a41b08-7f53-4dfa-a161-78b60ac35b2a) 
+![cancer jpg](https://github.com/user-attachments/assets/ca389bf9-fa8d-4ab7-941c-91950397db9a)
 
 ### Project Overview 
 This project aims to develop an automated brain tumor detection system using **Convolutional Neural Networks (CNNs)**, a type of deep learning model particularly effective for image analysis tasks due to their ability to learn spatial hierarchies of features. The CNN architecture is designed to automatically and adaptively learn spatial hierarchies of features through **backpropagation** by utilizing multiple building blocks, such as **convolutional layers, pooling layers, and fully connected layers**. The model starts by applying various **convolutional filters** to the input MRI images to **extract low-level features** like **edges and textures**, then progresses to **higher-level features** that may represent more **complex structures** such as tumors.
